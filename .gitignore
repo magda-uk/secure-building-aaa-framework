@@ -1,0 +1,14 @@
+# Archivos de configuración local y credenciales
+config.py
+.env
+
+# Entorno de ejecución y compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Entornos virtuales (si usas venv)
+venv/
+.venv/
+env/
