@@ -31,7 +31,7 @@ The architecture enforces strict identity verification, role-based permission ti
 ## 📁 2. Repository Structure
 
 ```text
-assignment_4_apis/
+secure-building-aaa-framework/
 ├── flask_app.py         # API Entry Point (Routes & Business Logic)
 ├── main_client_app.py   # User Interface (Building Turnstile Simulation)
 ├── db_utils.py          # Database Layer (SQL Queries & Connection)
