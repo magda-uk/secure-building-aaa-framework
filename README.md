@@ -32,15 +32,18 @@ The architecture enforces strict identity verification, role-based permission ti
 
 ```text
 secure-building-aaa-framework/
-├── flask_app.py         # API Entry Point (Routes & Business Logic)
-├── main_client_app.py   # User Interface (Building Turnstile Simulation)
-├── db_utils.py          # Database Layer (SQL Queries & Connection)
-├── db_seed.py           # Data Seeding (Initial Records)
-├── database_setup.py    # DB Initialization (Tables & Schema Creation)
-├── utils.py             # OOP Models (AccessAttempt class & Sanitization)
-├── security_test.py     # Automated Testing (Validation of security logic)
-├── config_example.py    # Credentials Template (Ignored by Git)
-└── requirements.txt     # Project Dependencies
+├── securepass/
+│   ├── flask_app.py         # API Entry Point (Routes & Business Logic)
+│   ├── main_client_app.py   # User Interface (Building Turnstile Simulation)
+│   ├── db_utils.py          # Database Layer (SQL Queries & Connection)
+│   ├── db_seed.py           # Data Seeding (Initial Records)
+│   ├── database_setup.py    # DB Initialization (Tables & Schema Creation)
+│   ├── utils.py             # OOP Models (AccessAttempt class & Sanitization)
+│   └── security_test.py     # Automated Testing (Validation of security logic)
+├── config_example.py        # Credentials Template (Ignored by Git)
+├── .gitignore               # Git ignored files configuration
+├── requirements.txt         # Project Dependencies
+└── README.md                # Project documentation
 
 ```
 
